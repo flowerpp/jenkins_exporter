@@ -15,6 +15,7 @@ DEBUG = int(os.environ.get('DEBUG', '0'))
 
 COLLECTION_TIME = Summary('jenkins_collector_collect_seconds', 'Time spent to collect metrics from Jenkins')
 
+# Just a test, Pls ignore!
 class JenkinsCollector(object):
     # The build statuses we want to export about.
     statuses = ["lastBuild", "lastCompletedBuild", "lastFailedBuild",
